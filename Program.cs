@@ -23,7 +23,6 @@ class Program
             IP = Console.ReadLine();
             Console.Write("PORT: ");
             PORT = Convert.ToInt32(Console.ReadLine());
-
             if (IP == null)
             {
                 Console.WriteLine("Invalid IP");
